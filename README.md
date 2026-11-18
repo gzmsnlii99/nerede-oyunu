@@ -4,6 +4,16 @@ Türkçe **“nerede / nereye gitmeli?”** sorusunu çalıştıran, sesli ve t�
 Bir karakter seçilir, karakter ihtiyacını sesli olarak söyler, doğru yere gidilir ve varışta
 3 resimli seçenekle “... nerede?” sorusu sorulur.
 
+## Canlı adresler
+
+| Ortam | Adres |
+| --- | --- |
+| **GitHub Pages (Türkiye'den erişilebilir)** | https://gzmsnlii99.github.io/nerede-oyunu/ |
+| Vercel production | https://nerede-oyunu.vercel.app |
+
+> Bazı internet sağlayıcıları `*.vercel.app` alan adlarını engelliyor. Bu durumda
+> **GitHub Pages** adresini kullanın; iki adres de aynı uygulamayı yayınlar.
+
 ## Çalıştırma
 
 ```bash
@@ -21,6 +31,18 @@ Ardından tarayıcıda **http://localhost:3000** adresini açın.
 npm run build
 npm start
 ```
+
+## Yayınlama
+
+- **Vercel:** `main` dalına yapılan her push otomatik olarak production'a deploy edilir.
+- **GitHub Pages:** `main` dalındaki değişiklikleri yayına almak için:
+
+  ```powershell
+  powershell -ExecutionPolicy Bypass -File scripts\deploy-pages.ps1
+  ```
+
+  Betik `next build` çalıştırır (`GITHUB_PAGES=true` ile statik export) ve `out/`
+  klasörünü `gh-pages` dalına gönderir.
 
 ## Nasıl oynanır?
 
