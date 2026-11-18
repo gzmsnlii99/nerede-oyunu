@@ -1,0 +1,5 @@
+:HL["/nerede-oyunu/_next/static/chunks/0986oldibc08j.css","style"]
+:HL["/nerede-oyunu/_next/static/media/106680e3cb941a97-s.p.0dpkqgqz79smb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/nerede-oyunu/_next/static/media/4686f7842ee651e2-s.p.2zp15__9k16__.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"AM8m4Q4PGTf_NRLN1gIsW","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

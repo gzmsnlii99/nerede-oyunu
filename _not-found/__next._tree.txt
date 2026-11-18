@@ -1,0 +1,4 @@
+:HL["/nerede-oyunu/_next/static/chunks/0986oldibc08j.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
+0:{"b":"AM8m4Q4PGTf_NRLN1gIsW","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
